@@ -1,0 +1,41 @@
+{
+  "satellite": "Bangabandhu-1",
+  "longitude": 119.1,
+  "created_at": "2026-02-08T10:17:54.209870",
+  "last_updated": "2026-02-08T10:17:54.209941",
+  "statistics": {
+    "total_transponders": 1,
+    "encrypted": 0,
+    "plaintext": 0,
+    "obfuscated": 0,
+    "unknown": 1,
+    "encryption_rate": 0.0,
+    "plaintext_rate": 0.0,
+    "pii_exposure_count": 0,
+    "disclosure_required_count": 0
+  },
+  "samples": [
+    {
+      "satellite_name": "Bangabandhu-1",
+      "satellite_longitude": 119.1,
+      "transponder_id": "BB1-C01",
+      "frequency_mhz": 3625.0,
+      "polarization": "H",
+      "observation_date": "2026-03-15T10:00:00Z",
+      "observation_duration_sec": 3600,
+      "observer_location": "Dhaka, Bangladesh",
+      "modulation": "DVB-S2",
+      "symbol_rate_msps": 27.5,
+      "signal_strength_dbm": null,
+      "carrier_to_noise_db": null,
+      "encryption_status": "UNKNOWN",
+      "traffic_type": "Unknown",
+      "confidence": 0.0,
+      "evidence_notes": "Awaiting Phase 3 equipment for actual observation",
+      "contains_pii": false,
+      "responsible_disclosure_required": false,
+      "operator_name": null,
+      "operator_country": null
+    }
+  ]
+}
