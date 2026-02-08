@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+
+# Data files (raw captures are large)
+*.raw
+*.iq
+*.wav
+*.bin
+reception/noaa/*.png
+reception/meteor/*.png
+!reception/noaa/.gitkeep
+!reception/meteor/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sensitive data — NEVER commit intercepted traffic
+analysis/results/raw_captures/
+*.pcap
+*.pcapng
+
+# Environment
+.env
